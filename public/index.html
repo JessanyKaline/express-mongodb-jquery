@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic App</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <div id="auth-form">
+        <h2>Login/Register</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="register()">Register</button>
+        <button onclick="login()">Login</button>
+    </div>
+    <div id="content" style="display: none;">
+        <h2>Welcome <span id="user"></span></h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+</body>
+</html>
